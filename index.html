@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AXION Hub — penghubung ke berbagai layanan dan kanal AXION Neuralis.">
+  <meta name="theme-color" content="#090b10">
+  <title>AXION Hub</title>
+  <link rel="icon" href="assets/images/axion-logo.webp" type="image/webp">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="AXION Hub — Beranda">
+        <img src="assets/images/axion-logo.webp" alt="AXION" width="42" height="42">
+        <span class="brand-text">AXION <b>Hub</b></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navigasi utama">
+        <a href="index.html" data-i18n="nav.home">Beranda</a>
+        <a href="donate.html" data-i18n="nav.donate">Donasi</a>
+        <a href="social-media.html" data-i18n="nav.social">Social Media</a>
+        <a href="romance-engine.html">Romance Engine</a>
+        <a href="axion.html">AXION Neuralis</a>
+        <a href="settings.html" aria-label="Settings" data-i18n="nav.settings">Settings</a>
+      </nav>
+      <button class="icon-btn mobile-menu-btn" type="button" data-action="toggle-menu" aria-label="Buka menu" aria-expanded="false" aria-controls="mobile-navigation">
+        <svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        <svg class="close-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero hero-home">
+        <div class="hero-copy">
+          <span class="eyebrow" data-i18n="home.eyebrow">PUSAT TAUTAN</span>
+          <h1 data-i18n="home.title">Satu tempat untuk menjelajahi ekosistem AXION.</h1>
+          <p data-i18n="home.subtitle">Temukan layanan, dokumentasi, komunitas, dan kanal resmi AXION Neuralis.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="romance-engine.html" data-i18n="home.cta.primary">Coba Romance Engine</a>
+            <a class="btn btn-ghost" href="axion.html" data-i18n="home.cta.secondary">Lihat AXION Neuralis</a>
+          </div>
+        </div>
+        <div class="hero-orbit" aria-hidden="true">
+          <div class="orbit-ring ring-a"></div>
+          <div class="orbit-ring ring-b"></div>
+          <div class="orbit-core"><span>AX</span></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow" data-i18n="home.explore.eyebrow">EXPLORE</span>
+            <h2 data-i18n="home.explore.title">Pilih halaman yang ingin dikunjungi.</h2>
+          </div>
+        </div>
+        <div class="card-grid">
+          <a class="hub-card" href="donate.html">
+            <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.3-7-10A4 4 0 0 1 12 7a4 4 0 0 1 7 3c0 5.7-7 10-7 10Z"/></svg></span>
+            <span class="card-title" data-i18n="cards.donate.title">Donasi</span>
+            <span class="card-desc" data-i18n="cards.donate.desc">Dukung pengembangan infrastruktur dan layanan AXION Neuralis.</span>
+            <span class="card-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span>
+          </a>
+          <a class="hub-card" href="social-media.html">
+            <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18.5 4 21l.9-4.2A7.8 7.8 0 1 1 20 12.5 7.7 7.7 0 0 1 12.2 20c-1.8 0-3.5-.5-4.9-1.5Z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/></svg></span>
+            <span class="card-title" data-i18n="cards.social.title">Social Media</span>
+            <span class="card-desc" data-i18n="cards.social.desc">Akun TikTok, WhatsApp, dan Telegram AXION Neuralis.</span>
+            <span class="card-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span>
+          </a>
+          <a class="hub-card" href="romance-engine.html">
+            <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h9a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3Z"/><path d="M8 8h8M8 12h5M8 16h6"/></svg></span>
+            <span class="card-title">Romance Engine</span>
+            <span class="card-desc" data-i18n="cards.romance.desc">Surat Cinta Digital dari AXION Neuralis, gratis sepenuhnya.</span>
+            <span class="card-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span>
+          </a>
+          <a class="hub-card" href="axion.html">
+            <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 7 4v10l-7 4-7-4V7l7-4Z"/><path d="m8 11 4-5 4 5-4 7-4-7Z"/></svg></span>
+            <span class="card-title">AXION Neuralis</span>
+            <span class="card-desc" data-i18n="cards.axion.desc">Kenali platform AXION Neuralis dan buka dokumentasinya.</span>
+            <span class="card-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span>
+          </a>
+          <a class="hub-card" href="settings.html">
+            <span class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 8.5A3.5 3.5 0 1 0 12 15.5 3.5 3.5 0 0 0 12 8.5Z"/><path d="M19 13.2v-2.4l-1.9-.5a5.7 5.7 0 0 0-.5-1.2l1-1.7-1.7-1.7-1.7 1a5.7 5.7 0 0 0-1.2-.5L12.5 4h-2.4l-.5 1.9c-.4.1-.8.3-1.2.5l-1.7-1L5 7.1l1 1.7c-.2.4-.4.8-.5 1.2l-1.9.5v2.4l1.9.5c.1.4.3.8.5 1.2L5 17l1.7 1.7 1.7-1c.4.2.8.4 1.2.5l.5 1.9h2.4l.5-1.9c.4-.1.8-.3 1.2-.5l1.7 1 1.7-1.7-1-1.7c.2-.4.4-.8.5-1.2l1.9-.5Z"/></svg></span>
+            <span class="card-title" data-i18n="cards.settings.title">Settings</span>
+            <span class="card-desc" data-i18n="cards.settings.desc">Atur bahasa, tema, dan lihat email kontak AXION.</span>
+            <span class="card-arrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><span>© <span data-year></span> AXION Neuralis</span><span data-i18n="footer.tagline">Built for a connected ecosystem.</span></footer>
+  </div>
+
+  <div class="mobile-panel" id="mobile-navigation" data-mobile-panel hidden aria-label="Navigasi mobile">
+    <a href="index.html" data-i18n="nav.home">Beranda</a>
+    <a href="donate.html" data-i18n="nav.donate">Donasi</a>
+    <a href="social-media.html" data-i18n="nav.social">Social Media</a>
+    <a href="romance-engine.html">Romance Engine</a>
+    <a href="axion.html">AXION Neuralis</a>
+    <a href="settings.html" data-i18n="nav.settings">Settings</a>
+  </div>
+</body>
+</html>
